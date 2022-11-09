@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algo_ds.dir\build.make CMakeFiles/algo_ds.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-recursion/code_01.obj: recursion/code_01.cpp.obj
-.PHONY : recursion/code_01.obj
-
-# target to build an object file
-recursion/code_01.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algo_ds.dir\build.make CMakeFiles/algo_ds.dir/recursion/code_01.cpp.obj
-.PHONY : recursion/code_01.cpp.obj
-
-recursion/code_01.i: recursion/code_01.cpp.i
-.PHONY : recursion/code_01.i
-
-# target to preprocess a source file
-recursion/code_01.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algo_ds.dir\build.make CMakeFiles/algo_ds.dir/recursion/code_01.cpp.i
-.PHONY : recursion/code_01.cpp.i
-
-recursion/code_01.s: recursion/code_01.cpp.s
-.PHONY : recursion/code_01.s
-
-# target to generate assembly for a file
-recursion/code_01.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algo_ds.dir\build.make CMakeFiles/algo_ds.dir/recursion/code_01.cpp.s
-.PHONY : recursion/code_01.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... recursion/code_01.obj
-	@echo ... recursion/code_01.i
-	@echo ... recursion/code_01.s
 .PHONY : help
 
 

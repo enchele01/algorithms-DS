@@ -1,3 +1,4 @@
+// code_02
 #include "iostream"
 using namespace std;
 void fun2(int n){

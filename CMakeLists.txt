@@ -3,4 +3,4 @@ project(algo_ds)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algo_ds main.cpp recursion/code_01.cpp)
+add_executable(algo_ds main.cpp)

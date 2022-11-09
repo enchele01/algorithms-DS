@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/bnura/CLionProjects/algo-ds/main.cpp" "C:/Users/bnura/CLionProjects/algo-ds/cmake-build-debug/CMakeFiles/algo_ds.dir/main.cpp.obj"
-  "C:/Users/bnura/CLionProjects/algo-ds/recursion/code_01.cpp" "C:/Users/bnura/CLionProjects/algo-ds/cmake-build-debug/CMakeFiles/algo_ds.dir/recursion/code_01.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

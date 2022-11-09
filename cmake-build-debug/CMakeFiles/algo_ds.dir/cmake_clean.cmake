@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algo_ds.dir/main.cpp.obj"
-  "CMakeFiles/algo_ds.dir/recursion/code_01.cpp.obj"
   "algo_ds.exe"
   "algo_ds.exe.manifest"
   "algo_ds.pdb"
