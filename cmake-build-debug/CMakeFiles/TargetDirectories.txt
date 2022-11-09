@@ -1,0 +1,3 @@
+C:/Users/bnura/CLionProjects/algo-ds/cmake-build-debug/CMakeFiles/algo_ds.dir
+C:/Users/bnura/CLionProjects/algo-ds/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bnura/CLionProjects/algo-ds/cmake-build-debug/CMakeFiles/rebuild_cache.dir
