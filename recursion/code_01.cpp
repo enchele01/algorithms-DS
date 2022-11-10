@@ -1,4 +1,5 @@
 // code_01
+//Tail recursion
 #include "iostream"
 using namespace std;
 void fun1(int n){
