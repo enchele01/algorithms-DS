@@ -1,26 +1,23 @@
-// code_06 Example of Indirect Recursion
+//code_08 SUM of natural numbers using resursion
 #include "iostream"
+
 using namespace std;
-void funA(int n);
-void funB(int n);
 
-void funA(int n){
+int fun(int n){
     if(n>0){
-        printf("%d",n);
-        funB(n-1);
+        return fun(n-1) + n;
     }
-}
-
-void funB(int n){
-    if(n>0){
-        printf("%d",n);
-        funA(n/2);
+    else{
+        return 0;
     }
 }
 
 
-int main()
-{
-    funA(4);
+int main(){
+
+    int s = fun(4);
+    printf("%d",s);
+
+
     return EXIT_SUCCESS;
 }
