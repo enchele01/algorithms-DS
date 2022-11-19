@@ -4,18 +4,18 @@
 using namespace std;
 
 int fun(int n){
-    if(n>0){
-        return fun(n-1) + n;
+    if(n==0){
+        return 0;
     }
     else{
-        return 0;
+        return fun(n-1) + n;
     }
 }
 
 
 int main(){
 
-    int s = fun(4);
+    int s = fun(3);
     printf("%d",s);
 
 
